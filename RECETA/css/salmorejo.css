@@ -1,0 +1,40 @@
+/*****************************************************************************/
+/*                     Hoja de estilo de salmorejo.html                      */
+/*                     Autor: Sergio Gamez Ortega                            */
+/*                     Version: 1.0                                          */
+/*                     Fecha: Octubre de 2023                                */
+/*                     Comentario: Trabajo de Lenguaje de Marcas             */
+/*****************************************************************************/
+
+
+@font-face {
+    font-family: cartoon;
+    src: url(../font/PLAYFULCARTOON.ttf);
+}
+
+@font-face {
+    font-family: glimp;
+    src: url(../font/Glimp-CondensedThin.ttf);
+}
+
+body {
+    background-color: rgb(247, 228, 206);
+}
+
+#wrapper {
+    font-family: glimp;
+    background-image: linear-gradient(rgb(230, 162, 99), rgb(239, 197, 152));
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: cartoon;
+    text-align: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    background-image: linear-gradient(rgb(191, 72, 32), rgb(239, 197, 152));
+    box-shadow: 5px 5px 15px rgb(253, 246, 237);
+    padding: 10px;
+}
