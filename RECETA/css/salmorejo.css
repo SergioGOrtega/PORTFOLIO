@@ -26,13 +26,13 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(247, 228, 206);
-    font-size: 1.2em;   /* em y rem son medidas exclusivas para texto */
+    font-size: 1.3em;   /* em y rem son medidas exclusivas para texto */
+    background-image: url(../img/comida.jpg);
 }
 
 #wrapper {
     font-family: cartoon;
-    background-image: linear-gradient(rgb(230, 162, 99), rgb(239, 197, 152));
+    background-color: whitesmoke;
     width: 80%; /* Para width la medida suele ser % */
     margin: auto;
     padding: 5%;
@@ -40,4 +40,12 @@ body {
 
 h1, h2 {
     font-family: glimp;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid rgb(112, 160, 66); /* #608e37 */
+    box-shadow: 5px 5px 15px rgb(172, 208, 134);
+    background-color: rgb(229, 240, 215);
+    padding: 20px;
 }
