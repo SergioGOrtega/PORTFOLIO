@@ -17,26 +17,27 @@
     src: url(../font/Glimp-CondensedThin.ttf);
 }
 
+/* Las medidas de ancho y alto se deben calcular del borde hacia adentro */
+/* IMPORTANTE PARA LAYOUTS COMPLEJOS */
+* {
+    box-sizing: border-box;
+}
+
 body {
     padding: 0;
     margin: 0;
     background-color: rgb(247, 228, 206);
+    font-size: 1.2em;   /* em y rem son medidas exclusivas para texto */
 }
 
 #wrapper {
-    font-family: glimp;
+    font-family: cartoon;
     background-image: linear-gradient(rgb(230, 162, 99), rgb(239, 197, 152));
-    width: 80%;
+    width: 80%; /* Para width la medida suele ser % */
     margin: auto;
-    padding: 20px;
+    padding: 5%;
 }
 
-h1 {
-    font-family: cartoon;
-    text-align: center;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    background-image: linear-gradient(rgb(191, 72, 32), rgb(239, 197, 152));
-    box-shadow: 5px 5px 15px rgb(253, 246, 237);
-    padding: 10px;
+h1, h2 {
+    font-family: glimp;
 }
