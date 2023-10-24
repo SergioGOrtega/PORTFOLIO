@@ -49,3 +49,10 @@ blockquote {
     background-color: rgb(229, 240, 215);
     padding: 20px;
 }
+
+ul {
+    list-style-image: url(../img/2252477.png);}
+
+img {
+    float: right;
+}
