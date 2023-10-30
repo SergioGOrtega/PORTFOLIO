@@ -38,7 +38,13 @@ body {
     padding: 5%;
 }
 
-h1, h2 {
+h1 {
+    font-family: glimp;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
     font-family: glimp;
 }
 
@@ -51,8 +57,28 @@ blockquote {
 }
 
 ul {
-    list-style-image: url(../img/2252477.png);}
+    list-style-image: url(../img/2252477.png);
+}
 
 img {
-    float: right;
+    width: 80%; /* 50% del espacio que hay en su bloque contenedor */
+    display: block;
+    margin: auto;
+    background-size: cover;
+    padding: 20px;
+}
+
+/************************** RESPONSIVIDAD: TOMAMOS CONTROL *********************************/
+/* VAMOS A HACER QUE EL WRAPPER PASE AL 100% EN MÓVILES  */
+
+@media only screen and (width<700px) {
+
+    #wrapper {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
 }
