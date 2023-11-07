@@ -64,7 +64,6 @@ img {
     width: 80%; /* 50% del espacio que hay en su bloque contenedor */
     display: block;
     margin: auto;
-    background-size: cover;
     padding: 20px;
 }
 
