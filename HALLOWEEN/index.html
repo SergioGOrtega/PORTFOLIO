@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fnaf - Halloween</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/freddyLogo.png" type="image/x-icon">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <!-- WARNING: it's not RESPONSIVE, only for computers & laptops -->
+    <div id="scenario">
+        <h1>DON'T TOUCH THE ANIMATRONICS NOSES!</h1>
+        <img id="foxyJumpscare" src="./img/foxy.gif" alt="Foxy's jumpscare">
+        <img id="chicaJumpscare" src="./img/chica.gif" alt="Chica's jumpscare">
+        <img id="bonnieJumpscare" src="./img/bonnie.gif" alt="Bonnie's jumpscare">
+        <img id="freddyJumpscare" src="./img/freddy.gif" alt="Freddy's jumpscare">
+        <div id="foxy" onmouseover="show('foxyJumpscare');sound('jumpscareSound')" onmouseout="hide('foxyJumpscare');silence('jumpscareSound')"></div>
+        <div id="chica" onmouseover="show('chicaJumpscare');sound('jumpscareSound')" onmouseout="hide('chicaJumpscare');silence('jumpscareSound')"></div>
+        <div id="bonnie" onmouseover="show('bonnieJumpscare');sound('jumpscareSound')" onmouseout="hide('bonnieJumpscare');silence('jumpscareSound')"></div>
+        <div id="freddy" onmouseover="show('freddyJumpscare');sound('jumpscareSound')" onmouseout="hide('freddyJumpscare');silence('jumpscareSound')"></div>
+        <audio id="jumpscareSound">
+            <source src="./sound/fnaf2Jumpscare.mp3" type="audio/mp3">
+        </audio>
+    </div>
+</body>
+</html>

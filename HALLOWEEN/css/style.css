@@ -1,0 +1,107 @@
+/*****************************************************************************/
+/*                     Hoja de estilo de index.html                          */
+/*                     Autor: Sergio Gamez Ortega                            */
+/*                     Version: 1.0                                          */
+/*                     Fecha: Noviembre de 2023                              */
+/*                     Comentario: Trabajo de Lenguaje de Marcas             */
+/*****************************************************************************/
+
+@font-face {
+    font-family: Halloween;
+    src: url(../font/Halloween\ Spooky.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: Halloween;
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    color: rgb(242, 143, 28);
+    text-shadow: 3.5px 3.5px 5px #9119b3;
+}
+
+#scenario {
+    background-image: url(../img/fnaf.png);
+    /* width: 1490px;
+    height: 994px; */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative
+}
+
+#foxy {
+    width: 65px;
+    height: 30px;
+    border: 0; 
+    position: absolute;
+    top: 310px;
+    left: 695px;
+    border-radius: 20px;
+}
+
+#chica {
+    width: 100px;
+    height: 60px;
+    border: 0;
+    position: absolute;
+    top: 325px;
+    left: 465px;
+    border-radius: 20px;
+}
+
+#bonnie {
+    width: 50px;
+    height: 30px;
+    border: 0;
+    position: absolute;
+    top: 325px;
+    left: 265px;
+    border-radius: 20px;
+}
+
+#freddy {
+    width: 40px;
+    height: 30px;
+    border: 0;
+    position: absolute;
+    top: 260px;
+    border-radius: 20px;
+}
+
+#foxyJumpscare {
+    width: 500px;
+    top: 310px;
+    left: 750px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#chicaJumpscare {
+    width: 400px;
+    top: 400px;
+    left: 350px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#bonnieJumpscare {
+    width: 350px;
+    top: 350px;
+    left: 150px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#freddyJumpscare {
+    width: 400px;
+    top: 400px;
+    left: 0;
+    position: absolute;
+    visibility: hidden;
+}
